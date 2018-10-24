@@ -23,7 +23,7 @@ permfix() {
 	echo "Running permanent fix. This will edit /etc/sysctl.conf."
 	echo "A backup will be saved at /etc/sysctl.conf.bak"
 	echo "Backing up..."
-	#cp /etc/sysctl.conf /etc/sysctl.conf.bak
+	cp /etc/sysctl.conf /etc/sysctl.conf.bak
 	if [ $? -ne 0 ]; then
     echo "Could not create a backup. Is /etc/sysctl.conf preotected or not existing?"
 		exit 1
