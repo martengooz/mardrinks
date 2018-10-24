@@ -42,11 +42,6 @@ npm ERR! This is probably not a problem with npm. There is likely additional log
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
-
 ### Lints and fixes files
 ```
 npm run lint
