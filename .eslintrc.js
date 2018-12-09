@@ -4,6 +4,11 @@ module.exports = {
     // 'eslint:recommended',
     'plugin:vue/essential'
   ],
+  parserOptions: {
+    parser: "babel-eslint",
+    sourceType: 'module',
+    allowImportExportEverywhere: true
+  },
   'plugins': [
     'html', 'vue'
   ],
