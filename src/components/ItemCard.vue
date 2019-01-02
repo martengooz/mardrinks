@@ -1,13 +1,13 @@
 <template>
 <v-card flat tile>
   <v-img
-    :src="`https://unsplash.it/150/300?image=${Math.floor(Math.random() * 100) + 1}`"
+    :src="img"
     height="150px"
   >
   </v-img>
   <v-card-text>
     <v-layout justify-center>
-      <span>Vodka Virgin</span>
+      <span>{{name}}</span>
     </v-layout>
   </v-card-text>
 </v-card>
@@ -17,8 +17,10 @@
   export default {
     data: () => ({
     }),
-    props: [
-      'title'
-    ]
+    props: {
+      itemId: String,
+      name: String,
+      img: String
+    }
   }
 </script>
