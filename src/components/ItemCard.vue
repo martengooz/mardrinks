@@ -1,7 +1,7 @@
 <template>
 <v-card flat tile>
   <v-img
-    :src="img"
+    :src=img
     height="150px"
   >
   </v-img>
@@ -18,7 +18,7 @@
     data: () => ({
     }),
     props: {
-      itemId: String,
+      id: String,
       name: String,
       img: String
     }
