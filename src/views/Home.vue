@@ -9,6 +9,19 @@
       </v-flex>
     </v-layout>
 
+    <v-layout>
+      <v-flex>
+        <ItemDetails
+          :id="'1'"
+          :name="'Drink'"
+          :img="'https://unsplash.it/150/300?image=23'"
+          :ingredients='[
+            {"Is" : "2 bitar"},
+            {"Vatten" : "40 cl"}
+          ]'/>
+      </v-flex>
+    </v-layout>
+
   </v-container>
 </template>
 
