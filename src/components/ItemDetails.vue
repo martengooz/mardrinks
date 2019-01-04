@@ -1,14 +1,12 @@
 <template>
 <v-card flat tile>
-
   <v-img :src="img" height="300px"></v-img>
-
   <v-card-text>
 
       <v-layout justify-center>
         <h1 class="lighter">{{name}}</h1>
       </v-layout>
-      <p class="mb-4">En drink som är najs i de flesta glas.</p>
+      <p class="mb-4">{{description}}</p>
 
 
       <table class="table table-hover">
@@ -57,6 +55,7 @@
       id: String,
       name: String,
       img: String,
+      description: String,
       ingredients: []
     }
   }
