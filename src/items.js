@@ -3,7 +3,7 @@ export const Items = {
     {
       id: 1,
       name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
+      img: "/img/1.png",
       ingredients: [
         {'Is' : '2 bitar'},
         {'Vatten' : '40 cl'}
@@ -11,7 +11,7 @@ export const Items = {
     },{
       id: 2,
       name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
+      img: "/img/2.png",
       ingredients: [
         {'Is' : '2 bitar'},
         {'Vatten' : '40 cl'}
@@ -20,7 +20,7 @@ export const Items = {
     {
       id: 3,
       name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
+      img: "/img/3.png",
       ingredients: [
         {'Is' : '2 bitar'},
         {'Vatten' : '40 cl'}
@@ -29,7 +29,7 @@ export const Items = {
     {
       id: 4,
       name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
+      img: "/img/4.jpeg",
       ingredients: [
         {'Is' : '2 bitar'},
         {'Vatten' : '40 cl'}
@@ -38,7 +38,7 @@ export const Items = {
     {
       id: 5,
       name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
+      img: "/img/5.png",
       ingredients: [
         {'Is' : '2 bitar'},
         {'Vatten' : '40 cl'}
@@ -47,7 +47,7 @@ export const Items = {
     {
       id: 6,
       name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
+      img: "/img/6.png",
       ingredients: [
         {'Is' : '2 bitar'},
         {'Vatten' : '40 cl'}
@@ -56,7 +56,7 @@ export const Items = {
     {
       id: 7,
       name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
+      img: "/img/7.jpg",
       ingredients: [
         {'Is' : '2 bitar'},
         {'Vatten' : '40 cl'}
@@ -65,7 +65,7 @@ export const Items = {
     {
       id: 8,
       name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
+      img: "/img/9.jpeg",
       ingredients: [
         {'Is' : '2 bitar'},
         {'Vatten' : '40 cl'}
@@ -74,7 +74,7 @@ export const Items = {
     {
       id: 9,
       name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
+      img: "/img/10.jpeg",
       ingredients: [
         {'Is' : '2 bitar'},
         {'Vatten' : '40 cl'}
@@ -82,7 +82,7 @@ export const Items = {
     },{
       id: 10,
       name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
+      img: "/img/11.jpg",
       ingredients: [
         {'Is' : '2 bitar'},
         {'Vatten' : '40 cl'}
@@ -91,7 +91,7 @@ export const Items = {
     {
       id: 11,
       name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
+      img: "/img/12.jpeg",
       ingredients: [
         {'Is' : '2 bitar'},
         {'Vatten' : '40 cl'}
@@ -99,195 +99,7 @@ export const Items = {
     },{
       id: 12,
       name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
-      ingredients: [
-        {'Is' : '2 bitar'},
-        {'Vatten' : '40 cl'}
-      ]
-    },
-    {
-      id: 13,
-      name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
-      ingredients: [
-        {'Is' : '2 bitar'},
-        {'Vatten' : '40 cl'}
-      ]
-    },{
-      id: 14,
-      name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
-      ingredients: [
-        {'Is' : '2 bitar'},
-        {'Vatten' : '40 cl'}
-      ]
-    },
-    {
-      id: 15,
-      name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
-      ingredients: [
-        {'Is' : '2 bitar'},
-        {'Vatten' : '40 cl'}
-      ]
-    },{
-      id: 16,
-      name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
-      ingredients: [
-        {'Is' : '2 bitar'},
-        {'Vatten' : '40 cl'}
-      ]
-    },
-    {
-      id: 17,
-      name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
-      ingredients: [
-        {'Is' : '2 bitar'},
-        {'Vatten' : '40 cl'}
-      ]
-    },{
-      id: 18,
-      name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
-      ingredients: [
-        {'Is' : '2 bitar'},
-        {'Vatten' : '40 cl'}
-      ]
-    },
-    {
-      id: 19,
-      name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
-      ingredients: [
-        {'Is' : '2 bitar'},
-        {'Vatten' : '40 cl'}
-      ]
-    },{
-      id: 20,
-      name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
-      ingredients: [
-        {'Is' : '2 bitar'},
-        {'Vatten' : '40 cl'}
-      ]
-    },
-    {
-      id: 21,
-      name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
-      ingredients: [
-        {'Is' : '2 bitar'},
-        {'Vatten' : '40 cl'}
-      ]
-    },{
-      id: 22,
-      name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
-      ingredients: [
-        {'Is' : '2 bitar'},
-        {'Vatten' : '40 cl'}
-      ]
-    },
-    {
-      id: 23,
-      name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
-      ingredients: [
-        {'Is' : '2 bitar'},
-        {'Vatten' : '40 cl'}
-      ]
-    },{
-      id: 24,
-      name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
-      ingredients: [
-        {'Is' : '2 bitar'},
-        {'Vatten' : '40 cl'}
-      ]
-    },
-    {
-      id: 25,
-      name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
-      ingredients: [
-        {'Is' : '2 bitar'},
-        {'Vatten' : '40 cl'}
-      ]
-    },{
-      id: 26,
-      name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
-      ingredients: [
-        {'Is' : '2 bitar'},
-        {'Vatten' : '40 cl'}
-      ]
-    },
-    {
-      id: 27,
-      name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
-      ingredients: [
-        {'Is' : '2 bitar'},
-        {'Vatten' : '40 cl'}
-      ]
-    },{
-      id: 28,
-      name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
-      ingredients: [
-        {'Is' : '2 bitar'},
-        {'Vatten' : '40 cl'}
-      ]
-    },
-    {
-      id: 29,
-      name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
-      ingredients: [
-        {'Is' : '2 bitar'},
-        {'Vatten' : '40 cl'}
-      ]
-    },{
-      id: 30,
-      name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
-      ingredients: [
-        {'Is' : '2 bitar'},
-        {'Vatten' : '40 cl'}
-      ]
-    },
-    {
-      id: 31,
-      name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
-      ingredients: [
-        {'Is' : '2 bitar'},
-        {'Vatten' : '40 cl'}
-      ]
-    },{
-      id: 32,
-      name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
-      ingredients: [
-        {'Is' : '2 bitar'},
-        {'Vatten' : '40 cl'}
-      ]
-    },
-    {
-      id: 33,
-      name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
-      ingredients: [
-        {'Is' : '2 bitar'},
-        {'Vatten' : '40 cl'}
-      ]
-    },
-    {
-      id: 34,
-      name: "Vodka virgin",
-      img: "https://unsplash.it/150/300?image=11",
+      img: "/img/13.jpeg",
       ingredients: [
         {'Is' : '2 bitar'},
         {'Vatten' : '40 cl'}
