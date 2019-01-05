@@ -5,8 +5,8 @@
         v-for="item in items"
         :key="item.id"
         xs6 sm4 md3 lg2
-      >
-        <ItemCard :name="item.name" :img="item.img" />
+      > <v-
+        <ItemCard @click.native="selectItem({item})" :name="item.name" :img="item.img" />
       </v-flex>
     </v-layout>
   </v-container>
@@ -19,6 +19,11 @@
     name: "ItemGrid",
     data: () => ({
     }),
+    methods: {
+      selectItem(obj) {
+        this.$emit('select-item', obj.item)
+      }
+    },
     props: {
       category: String,
       items: {}
