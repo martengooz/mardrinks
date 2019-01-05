@@ -1,12 +1,12 @@
 <template>
 <v-card flat tile>
-  <v-img :src="img" height="300px"></v-img>
+  <v-img :src="item.img" height="300px"></v-img>
   <v-card-text>
 
       <v-layout justify-center>
-        <h1 class="lighter">{{name}}</h1>
+        <h1 class="lighter">{{item.name}}</h1>
       </v-layout>
-      <p class="mb-4">{{description}}</p>
+      <p class="mb-4">{{item.description}}</p>
 
 
       <table class="table table-hover">
@@ -15,7 +15,7 @@
         </thead>
         <tbody>
           <tr
-            v-for="(ingredient, key) in ingredients"
+            v-for="(ingredient, key) in item.ingredients"
           >
             <td col xs12 sm12 md4 lg4>
               <span class="font-weight-bold">{{Object.keys(ingredient)[0]}}</span>
@@ -31,14 +31,15 @@
         <v-form>
         <v-btn
           large
-          disabled
-          @click="clear">Cancel
+          @click="toggleDrawer()">
+            Cancel
         </v-btn>
         <v-btn
           primary
           large
           color="success"
-          @click="submit">Order
+          @click="submit()">
+            Order
         </v-btn>
       </v-form>
       </v-layout>
@@ -52,11 +53,18 @@
     data: () => ({
     }),
     props: {
-      id: String,
-      name: String,
-      img: String,
-      description: String,
-      ingredients: []
+      item: null
+    },
+    methods: {
+      showDetails(item) {
+        this.item = item;
+      },
+      toggleDrawer(){
+        this.$emit('toggle-right-drawer');
+      },
+      submit(){
+        alert("You ordered a " + this.item.name + ". Please wait while Bengtsberg is preparing your drink.");
+      }
     }
   }
 </script>

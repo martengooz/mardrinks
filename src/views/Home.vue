@@ -4,7 +4,7 @@
     <v-layout xs12 sm12 md8 lg8 justify-center fill-height>
       <v-flex>
         <div row v-for="(itemList, category) in Items">
-          <ItemGrid :category="category" :items="itemList" @click.stop="drawerRight = !drawerRight"/>
+          <ItemGrid @select-item="selectItem" :category="category" :items="itemList" @click.stop="drawerRight = !drawerRight"/>
         </div>
       </v-flex>
     </v-layout>
@@ -18,14 +18,12 @@
       class="grey lighten-4"
     >
     <ItemDetails
+      v-if="selectedItem"
       class="grey lighten-4"
-      :id="'1'"
-      :name="'Heineken'"
-      :description="'Brödig smak med inslag av honung, knäckebröd och citrus. Serveras vid 8-10°C till vegetariska rätter, till rätter av fisk eller kyckling eller som sällskapsdryck.'"
-      :img="'/img/7.jpg'"
-      :ingredients='[
-        {"Öl" : "5,2%"},
-      ]'/>
+      v-bind:item="selectedItem"
+      @toggle-right-drawer="toggleRightDrawer"
+      >
+    </ItemDetails>
   </v-navigation-drawer>
   </v-container>
 </template>
@@ -40,11 +38,21 @@ export default {
   name: 'home',
   data: () => ({
     Items : Items,
+    selectedItem: null,
     drawer: true,
-    drawerRight: true,
+    drawerRight: false,
     right: null,
     left: null
   }),
+  methods: {
+    selectItem(item) {
+      this.selectedItem = item;
+      this.drawerRight = true;
+    },
+    toggleRightDrawer(){
+      this.drawerRight = !this.drawerRight;
+    }
+  },
   components: {
     ItemGrid,
     ItemDetails
